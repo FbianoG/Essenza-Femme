@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "L'Oréal - Hidratante Facial",
+    "category": "Hidratante",
+    "price": 45,
+    "description": "Hidratante facial para uso diário.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Revlon - Base de Longa Duração",
+    "category": "Base",
+    "price": 89,
+    "description": "Base líquida para cobertura duradoura.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Calvin Klein - Perfume Intenso",
+    "category": "Perfume",
+    "price": 120,
+    "description": "Perfume de fragrância intensa e duradoura.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "MAC - Batom Matte",
+    "category": "Batom",
+    "price": 35,
+    "description": "Batom com acabamento matte e cores vibrantes.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Clinique - Serum Anti-idade",
+    "category": "Serum",
+    "price": 150,
+    "description": "Serum para redução de linhas finas e rugas.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Pantene - Shampoo Hidratante",
+    "category": "Shampoo",
+    "price": 40,
+    "description": "Shampoo para hidratação e brilho intenso.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "name": "Nivea - Hidratante Corporal",
+    "category": "Hidratante",
+    "price": 45,
+    "description": "Hidratante para pele seca e sensível.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "name": "Dior - Base de Alta Cobertura",
+    "category": "Base",
+    "price": 99,
+    "description": "Base de alta cobertura e acabamento natural.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "name": "Hugo Boss - Perfume Masculino",
+    "category": "Perfume",
+    "price": 130,
+    "description": "Perfume masculino com fragrância sofisticada.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "Lancôme - Batom Líquido",
+    "category": "Batom",
+    "price": 55,
+    "description": "Batom líquido de longa duração com acabamento brilhante.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "name": "Estée Lauder - Serum Reparador",
+    "category": "Serum",
+    "price": 160,
+    "description": "Serum reparador noturno para pele revitalizada.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "name": "TRESemmé - Shampoo para Cabelos Oleosos",
+    "category": "Shampoo",
+    "price": 35,
+    "description": "Shampoo para controle da oleosidade dos cabelos.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 13,
+    "name": "Avon - Hidratante Anti-idade",
+    "category": "Hidratante",
+    "price": 50,
+    "description": "Hidratante facial com ação anti-idade.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 14,
+    "name": "Maybelline - Base Matte",
+    "category": "Base",
+    "price": 75,
+    "description": "Base matte de cobertura média.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 15,
+    "name": "Chanel - Perfume Floral",
+    "category": "Perfume",
+    "price": 210,
+    "description": "Perfume feminino com notas florais suaves.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 16,
+    "name": "NYX - Batom Cremoso",
+    "category": "Batom",
+    "price": 30,
+    "description": "Batom cremoso de alta pigmentação.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 17,
+    "name": "La Roche-Posay - Serum Antioxidante",
+    "category": "Serum",
+    "price": 180,
+    "description": "Serum antioxidante para proteção da pele.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 18,
+    "name": "Garnier - Shampoo Fortificante",
+    "category": "Shampoo",
+    "price": 29,
+    "description": "Shampoo fortificante para cabelos frágeis.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "name": "Olay - Hidratante Regenerador",
+    "category": "Hidratante",
+    "price": 65,
+    "description": "Hidratante regenerador para todos os tipos de pele.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 20,
+    "name": "Fenty Beauty - Base Soft Matte",
+    "category": "Base",
+    "price": 110,
+    "description": "Base soft matte para cobertura leve.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 21,
+    "name": "Versace - Perfume Elegante",
+    "category": "Perfume",
+    "price": 230,
+    "description": "Perfume elegante com notas amadeiradas.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 22,
+    "name": "Sephora - Batom Hidratante",
+    "category": "Batom",
+    "price": 42,
+    "description": "Batom hidratante com fórmula leve.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 23,
+    "name": "Shiseido - Serum Hidratante",
+    "category": "Serum",
+    "price": 190,
+    "description": "Serum hidratante com ação revitalizadora.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 24,
+    "name": "Dove - Shampoo Nutritivo",
+    "category": "Shampoo",
+    "price": 25,
+    "description": "Shampoo nutritivo para cabelos secos.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 25,
+    "name": "Nuxe - Hidratante com Óleos Naturais",
+    "category": "Hidratante",
+    "price": 90,
+    "description": "Hidratante enriquecido com óleos naturais.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 26,
+    "name": "MAC - Base Studio Fix",
+    "category": "Base",
+    "price": 135,
+    "description": "Base de alta cobertura para acabamento matte.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 27,
+    "name": "Bvlgari - Perfume Exclusivo",
+    "category": "Perfume",
+    "price": 240,
+    "description": "Perfume exclusivo com notas de baunilha.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 28,
+    "name": "Revlon - Batom de Longa Duração",
+    "category": "Batom",
+    "price": 48,
+    "description": "Batom de longa duração com cores vibrantes.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 29,
+    "name": "Clarins - Serum Redutor de Poros",
+    "category": "Serum",
+    "price": 175,
+    "description": "Serum redutor de poros com efeito matte.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 30,
+    "name": "Head & Shoulders - Shampoo Anticaspa",
+    "category": "Shampoo",
+    "price": 27,
+    "description": "Shampoo anticaspa para controle da descamação.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 31,
+    "name": "Nivea - Hidratante Corporal Suave",
+    "category": "Hidratante",
+    "price": 35,
+    "description": "Hidratante corporal de rápida absorção.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 32,
+    "name": "Maybelline - Base Super Stay",
+    "category": "Base",
+    "price": 95,
+    "description": "Base de longa duração para cobertura perfeita.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 33,
+    "name": "Tom Ford - Perfume Exclusivo",
+    "category": "Perfume",
+    "price": 300,
+    "description": "Perfume exclusivo com notas sofisticadas.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 34,
+    "name": "Kylie Cosmetics - Batom Líquido Matte",
+    "category": "Batom",
+    "price": 65,
+    "description": "Batom líquido com acabamento matte e duradouro.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 35,
+    "name": "The Ordinary - Serum com Ácido Hialurônico",
+    "category": "Serum",
+    "price": 120,
+    "description": "Serum com ácido hialurônico para hidratação profunda.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 36,
+    "name": "L'Oréal - Shampoo Revitalizante",
+    "category": "Shampoo",
+    "price": 40,
+    "description": "Shampoo revitalizante para cabelos sem vida.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 37,
+    "name": "Bioderma - Hidratante Corporal Nutritivo",
+    "category": "Hidratante",
+    "price": 60,
+    "description": "Hidratante nutritivo para peles secas e desidratadas.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 38,
+    "name": "Fenty Beauty - Base Pro Filt'r",
+    "category": "Base",
+    "price": 110,
+    "description": "Base de alta cobertura com acabamento matte.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 39,
+    "name": "Gucci - Perfume Floral Amadeirado",
+    "category": "Perfume",
+    "price": 280,
+    "description": "Perfume floral amadeirado com notas elegantes.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 40,
+    "name": "NYX - Batom Soft Matte",
+    "category": "Batom",
+    "price": 50,
+    "description": "Batom com acabamento soft matte e longa duração.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 41,
+    "name": "Vichy - Serum Anti-Rugas",
+    "category": "Serum",
+    "price": 160,
+    "description": "Serum anti-rugas com efeito lifting imediato.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 42,
+    "name": "Neutrogena - Shampoo Limpeza Profunda",
+    "category": "Shampoo",
+    "price": 35,
+    "description": "Shampoo para limpeza profunda dos fios e couro cabeludo.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 43,
+    "name": "Eucerin - Hidratante Corporal Intensivo",
+    "category": "Hidratante",
+    "price": 75,
+    "description": "Hidratante intensivo para peles extremamente secas.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 44,
+    "name": "Make Up For Ever - Base Ultra HD",
+    "category": "Base",
+    "price": 125,
+    "description": "Base de alta definição para uma pele impecável.",
+    "src": "/img/2.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 45,
+    "name": "Jo Malone - Perfume Cítrico",
+    "category": "Perfume",
+    "price": 270,
+    "description": "Perfume cítrico com notas frescas e elegantes.",
+    "src": "/img/3.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 46,
+    "name": "MAC - Batom Satin",
+    "category": "Batom",
+    "price": 72,
+    "description": "Batom com acabamento acetinado e cores vibrantes.",
+    "src": "/img/4.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 47,
+    "name": "SkinCeuticals - Serum Antioxidante",
+    "category": "Serum",
+    "price": 220,
+    "description": "Serum antioxidante com proteção contra radicais livres.",
+    "src": "/img/5.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 48,
+    "name": "Kérastase - Shampoo Nutritivo",
+    "category": "Shampoo",
+    "price": 95,
+    "description": "Shampoo nutritivo para cabelos secos e danificados.",
+    "src": "/img/6.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 49,
+    "name": "La Mer - Hidratante Reparador",
+    "category": "Hidratante",
+    "price": 390,
+    "description": "Hidratante reparador com fórmula intensiva.",
+    "src": "/img/7.jpg",
+    "review": 328,
+    "rating": 5
+  },
+  {
+    "id": 50,
+    "name": "Huda Beauty - Base Full Coverage",
+    "category": "Base",
+    "price": 140,
+    "description": "Base de alta cobertura para uma pele perfeita.",
+    "src": "/img/1.jpg",
+    "review": 328,
+    "rating": 5
+  }
+]

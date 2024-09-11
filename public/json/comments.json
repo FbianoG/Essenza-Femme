@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Maria Silva",
+        "comment": "Adorei o produto, a base é excelente e dura o dia todo!",
+        "rating": 5,
+        "src": "/img/person1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "João Pereira",
+        "comment": "Bom custo-benefício, mas não esperava que fosse tão bom assim. Amei.",
+        "rating": 5,
+        "src": "/img/person2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ana Souza",
+        "comment": "Excelente hidratação, minha pele está muito mais macia.",
+        "rating": 5,
+        "src": "/img/person3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Carlos Oliveira",
+        "comment": "Achei o preço justo, a qualidade é muita... Minha esposa amou todos!.",
+        "rating": 5,
+        "src": "/img/person4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Fernanda Lima",
+        "comment": "O batom é lindo e dura bastante, super recomendo!",
+        "rating": 5,
+        "src": "/img/person5.jpg"
+    }
+]
