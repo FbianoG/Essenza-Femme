@@ -3,7 +3,7 @@ import { ProductApi } from "@/interfaces/products"
 import { useEffect, useState } from "react"
 import Card from "../Card"
 import { useSearchParams } from "next/navigation"
-
+import { Suspense } from 'react'
 
 
 const Similar: React.FC = () => {
@@ -26,17 +26,20 @@ const Similar: React.FC = () => {
 
 
     return (
-        <div className='px-[5%] lg:px-[10%] mt-40'>
+        <Suspense>
 
-            <h2 className="text-2xl text-[#333] font-semibold mb-10 ">Produtos Similares</h2>
+            <div className='px-[5%] lg:px-[10%] mt-40'>
 
-            <ul className='flex gap-6 justify-center flex-wrap lg:justify-between '>
+                <h2 className="text-2xl text-[#333] font-semibold mb-10 ">Produtos Similares</h2>
 
-                {similar && similar.map((product: ProductApi) => <Card key={product.id} product={product} />)}
+                <ul className='flex gap-6 justify-center flex-wrap lg:justify-between '>
 
-            </ul>
+                    {similar && similar.map((product: ProductApi) => <Card key={product.id} product={product} />)}
 
-        </div>
+                </ul>
+
+            </div>
+        </Suspense>
     )
 }
 
