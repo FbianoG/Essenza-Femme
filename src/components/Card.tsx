@@ -1,4 +1,5 @@
 import { price } from "@/assets/price"
+import { ProductApi } from "@/interfaces/products"
 import Image from "next/image"
 import Link from "next/link"
 import { HiArrowRight } from "react-icons/hi"
