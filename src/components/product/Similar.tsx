@@ -3,7 +3,7 @@ import { ProductApi } from "@/interfaces/products"
 import { useEffect, useState } from "react"
 import Card from "../Card"
 import { useSearchParams } from "next/navigation"
-import { Suspense } from 'react'
+
 
 
 const Similar: React.FC = () => {
@@ -26,7 +26,7 @@ const Similar: React.FC = () => {
 
 
     return (
-        <Suspense>
+
 
             <div className='px-[5%] lg:px-[10%] mt-40'>
 
@@ -39,7 +39,7 @@ const Similar: React.FC = () => {
                 </ul>
 
             </div>
-        </Suspense>
+ 
     )
 }
 
