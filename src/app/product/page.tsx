@@ -1,9 +1,10 @@
 
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
+import Footer from "@/components/shared/Footer"
+import Header from "@/components/shared/Header"
 import ProductBuy from "@/components/product/ProductBuy";
 import Similar from "@/components/product/Similar";
 import { Suspense } from 'react'
+import SideBar from "@/components/shared/SideBar";
 
 
 export default function Product() {
@@ -19,6 +20,7 @@ export default function Product() {
 
             </main>
             <Footer />
+            <SideBar/>
         </Suspense>
     )
 }

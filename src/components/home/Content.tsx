@@ -1,6 +1,6 @@
 'use client'
 
-import Card from "./Card"
+import Card from "../shared/Card"
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 import { useEffect, useRef, useState } from "react"
 import { FaShippingFast } from "react-icons/fa"

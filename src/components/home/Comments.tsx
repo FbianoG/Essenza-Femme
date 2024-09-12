@@ -32,11 +32,8 @@ const Comments = () => {
             </div>
 
             <ul className="flex gap-6 mt-20 pb-4 overflow-auto lg:flex-wrap lg:justify-evenly">
-
-
-
                 {comments && comments.map(e => (
-                    <div key={e.id} className=" border rounded-xl min-w-[280px] w-[280px] h-auto p-4  flex lg:w-[400px] lg:h-auto ">
+                    <div key={e.id} className=" border rounded-xl min-w-[280px] w-[280px] h-auto p-4  flex lg:w-[400px] ">
                         <div className="flex flex-col">
                             <div className="flex items-center gap-2">
                                 <div className="text-yellow-400 flex">
@@ -57,11 +54,6 @@ const Comments = () => {
                         <Image width={150} height={200} alt={'Foto de perfil ' + e.name} src={e.src} className=" hidden w-[150px] h-[200px] rounded-xl object-cover lg:block" />
                     </div>
                 ))}
-
-
-
-
-
 
             </ul>
         </div>

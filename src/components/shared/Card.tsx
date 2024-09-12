@@ -36,3 +36,4 @@ const Card: React.FC<CardProps> = ({ product }) => {
 }
 
 export default Card
+

@@ -1,7 +1,7 @@
 'use client'
 import { ProductApi } from "@/interfaces/products"
 import { useEffect, useState } from "react"
-import Card from "../Card"
+import Card from "../shared/Card"
 import { useSearchParams } from "next/navigation"
 
 
@@ -32,7 +32,7 @@ const Similar: React.FC = () => {
 
                 <h2 className="text-2xl text-[#333] font-semibold mb-10 ">Produtos Similares</h2>
 
-                <ul className='flex gap-6 justify-center flex-wrap lg:justify-between '>
+                <ul className='flex gap-6  flex-wrap '>
 
                     {similar && similar.map((product: ProductApi) => <Card key={product.id} product={product} />)}
 

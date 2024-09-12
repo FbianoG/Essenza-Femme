@@ -1,5 +1,6 @@
 'use client'
 import { price } from "@/assets/price"
+import { useMyContext } from "@/context/myProducts"
 import { ProductApi } from "@/interfaces/products"
 import Image from "next/image"
 import { useSearchParams } from "next/navigation"
@@ -10,6 +11,8 @@ import { MdAddShoppingCart, MdOutlineSell } from "react-icons/md"
 
 const ProductBuy = () => {
 
+
+   const { state, setState } = useMyContext()
    const [amount, setAmount] = useState<number>(1)
    const [product, setProduct] = useState<ProductApi>()
 
@@ -34,7 +37,7 @@ const ProductBuy = () => {
             setProduct(prod)
          })
          .catch(err => console.log({ message: 'Ocorreu algum erro.', err }))
-
+      setAmount(1)
    }, [searchParams])
 
    const calculeRating = (rating: number) => {
@@ -44,6 +47,13 @@ const ProductBuy = () => {
          else return <FaStar key={index} />
       })
 
+   }
+
+
+   const addToCart = () => {
+      if (!product) return
+      if (state.find(e => e.id === product.id)) return
+      setState([...state, { ...product, amount }])
    }
 
 
@@ -83,7 +93,7 @@ const ProductBuy = () => {
                   </div>
 
                   <div className="flex justify-center gap-4 mt-8 md:justify-start md:mt-auto ">
-                     <button className="flex items-center  p-1 rounded-[40px] group hover:opacity-70 duration-300 border ">
+                     <button onClick={addToCart} className="flex items-center  p-1 rounded-[40px] group hover:opacity-70 duration-300 border ">
                         <span className="px-4 text-[#333]">Carrinho</span>
                         <span className="bg-slate-100 text-[#333] w-10 h-10 rounded-full grid place-items-center" >
                            <MdAddShoppingCart /></span>

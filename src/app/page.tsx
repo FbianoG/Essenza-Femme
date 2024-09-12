@@ -1,9 +1,10 @@
-import Comments from "@/components/Comments";
-import Content from "@/components/Content";
-import Explore from "@/components/Explore";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+import Comments from "@/components/home/Comments";
+import Content from "@/components/home/Content";
+import Explore from "@/components/home/Explore";
+import Footer from "@/components/shared/Footer";
+import Header from "@/components/shared/Header";
+import Hero from "@/components/home/Hero";
+import SideBar from "@/components/shared/SideBar";
 
 
 
@@ -15,10 +16,11 @@ export default function Home() {
       <main>
         <Hero />
         <Content />
-        <Explore/>
-        <Comments/>
+        <Explore />
+        <Comments />
       </main>
       <Footer />
+      <SideBar />
     </div>
   )
 }

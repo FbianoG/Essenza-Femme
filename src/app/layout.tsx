@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Montserrat,  } from "next/font/google";
+import { Montserrat, } from "next/font/google";
+import { MyProvider } from "@/context/myProducts";
 
 
 
@@ -19,12 +20,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
-      <body
-        className={montserrat.className}
-      >
-        {children}
-      </body>
-    </html>
+    <MyProvider>
+      <html lang="pt-br">
+        <body
+          className={montserrat.className}
+        >
+          {children}
+        </body>
+      </html>
+    </MyProvider>
   );
 }
