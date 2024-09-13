@@ -3,8 +3,19 @@
 @tailwind utilities;
 
 
+
+:root {
+  --color1: #333;
+  --color2: #fdfdfd;
+}
+
+
 * {
   scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#fafafa];
 }
 
 main {

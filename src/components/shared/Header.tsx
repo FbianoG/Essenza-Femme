@@ -35,13 +35,13 @@ const Header = () => {
         className={`absolute left-0 top-0 -z-10 flex h-0 w-full justify-center gap-8 overflow-hidden bg-[#fff9] backdrop-blur-md duration-300 ${menu && 'h-[130px] border-b pb-4 pt-[90px]'} `}
       >
         <Link
-          href=""
+          href="/"
           className="relative font-medium tracking-widest text-neutral-800 duration-300 hover:opacity-50"
         >
           Home
         </Link>
         <Link
-          href=""
+          href="products"
           className="relative font-medium tracking-widest text-neutral-800 duration-300 hover:opacity-50"
         >
           Produtos

@@ -1,8 +1,11 @@
+'use client'
 import { price } from "@/assets/price"
+import { useMyContext } from "@/context/myProducts"
 import { ProductApi } from "@/interfaces/products"
 import Image from "next/image"
 import Link from "next/link"
 import { HiArrowRight } from "react-icons/hi"
+import { MdAddShoppingCart } from "react-icons/md"
 
 interface CardProps {
     product: ProductApi
@@ -10,10 +13,23 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ product }) => {
 
+
+    const { state, setState } = useMyContext()
+
+    const addToCart = () => {
+        if (!product) return
+        if (state.find(e => e.id === product.id)) return
+        setState([...state, { ...product, amount: 1 }])
+    }
+
+
+
     return (
-        <div className="min-w-[320px] group">
+        <div className="min-w-[320px] w-[320px] group">
             <div className=" overflow-hidden rounded-3xl relative h-[400px] p-4 flex ">
                 <Image width={900} height={700} loading="lazy" alt={product.name} src={product.src} className="absolute left-0 top-0 w-full h-full object-cover -z-10 group-hover:scale-105 duration-500" />
+
+                <button aria-label="Adicionar ao carrinho" title="Adicionar ao carrinho" onClick={addToCart} className='absolute top-3 right-3 w-[50px] h-[50px] rounded-full grid place-items-center bg-[--color1] text-[--color2] text-xl hover:bg-[--color2] hover:text-[--color1] duration-300'><MdAddShoppingCart /></button>
 
                 <div className=" w-full flex justify-between gap-4 items-center mt-auto">
 
