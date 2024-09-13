@@ -10,7 +10,6 @@ const Products = () => {
             <Header />
             <main>
                 <ListProducts />
-
             </main>
             <Footer />
             <SideBar />
