@@ -24,7 +24,7 @@ const Hero = () => {
             
             {/* imagem */}
             <div className="bg-[--color2] h-96 mt-10 lg:w-1/2 lg:h-full lg:mt-0 flex overflow-hidden">
-                <Image width={1000} height={1000} alt="" src='/img/2.jpg' className="w-full h-full object-cover" />
+                <Image width={1000} height={1000} alt="" src='/img/0.jpg' className="w-full h-full object-cover"  />
             </div>
         </div>
     )

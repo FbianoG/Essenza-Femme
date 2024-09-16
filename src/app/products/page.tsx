@@ -6,7 +6,7 @@ import SideBar from "@/components/shared/SideBar"
 const Products = () => {
 
     return (
-        <div className=''>
+        <div>
             <Header />
             <main>
                 <ListProducts />

@@ -1,6 +1,6 @@
 {
-  "name": "market",
-  "version": "0.1.0",
+  "name": "essanza-femme",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
